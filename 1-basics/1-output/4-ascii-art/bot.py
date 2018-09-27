@@ -1,0 +1,11 @@
+# Display ascii art
+print("\t   #####")
+print("\t  @@@@@@@")
+print("\t ooooooooo")
+print("        |    o    |")
+print("        | xx o xx |")
+print("        |    o    |")
+print("\t ooooooooo")
+print("\t ooooooooo")
+print("\t oo     oo")
+print("        oo       oo")
