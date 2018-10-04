@@ -1,0 +1,11 @@
+# Read direction from user
+print("Please enter one of the following directions")
+print("W is to go up.")
+print("S is to go down.")
+print("A is to go left.")
+print("D is to go right.")
+direction = str(input())
+
+# Using if, else and elif statements
+if direction == "w":
+  print("You are moving up.")
