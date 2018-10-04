@@ -35,6 +35,6 @@ elif location == "Labratory":
   elif location_labratory == "Somewhere else" :
     print("Found some tools but no battery.")
 elif location == "Somewhere else":
-  print("Found some mess but no battery.")
-else:
   print("I don't know where that is but I will keep looking!")
+else:
+  print("I'm not sure what you mean!")
