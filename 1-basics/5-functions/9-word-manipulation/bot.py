@@ -18,7 +18,7 @@ def display_repeat(text):
   print("How many times?")
   number = int(input())
 
-  for count in range(1,number, 1):
+  for count in range(0,number, 1):
     if count % 2 == 0 :
       print(text.upper())
     else:         
