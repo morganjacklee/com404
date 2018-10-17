@@ -16,7 +16,7 @@ def display_mirrored(text):
 
 def display_repeat(text):
   print("How many times?")
-  number = str(input())
+  number = int(input())
 
   for count in range(0,number, 1):
     print(text)
