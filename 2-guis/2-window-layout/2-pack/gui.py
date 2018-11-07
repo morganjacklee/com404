@@ -14,6 +14,10 @@ class Gui(Tk):
         # add components/widgets
         self.add_heading_label()
         self.add_center_label()
+        self.add_email_label()
+        self.add_email_entry()
+        self.add_subscribe_button()
+        
 
     def add_heading_label(self):
 
@@ -33,4 +37,33 @@ class Gui(Tk):
         # 2. style the component
         self.center_label.configure(font="Arial 12",
                                      text="Please enter your email below to receive our newsletter.",
+                                     )
+    def add_email_label(self):
+
+        # 1. create component object
+        self.email_label = Label()
+        self.email_label.pack(fill=X)
+        # 2. style the component
+        self.email_label.configure(font="Arial 10",
+                                     text="Email:",
+                                     )
+
+
+    def add_email_entry(self):
+
+        # 1. create component object
+        self.email_entry = Entry()
+        self.email_entry.pack(fill=X)
+        # 2. style the component
+        self.email_entry.configure(font="Arial 12",
+                                   )                                     
+
+    def add_subscribe_button(self):
+
+        # 1. create component object
+        self.subscribe_button = Button()
+        self.subscribe_button.pack(fill=X)
+        # 2. style the component
+        self.subscribe_button.configure(font="Arial 18",
+                                     text="Subscribe",
                                      )
